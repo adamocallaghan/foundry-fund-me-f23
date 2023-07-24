@@ -41,10 +41,7 @@ contract HelperConfig {
     }
 
     function getAnvilEthConfig() public pure returns (NetworkConfig memory) {
-        // price feed address
-        NetworkConfig memory anvilConfig = NetworkConfig({
-            priceFeed: 0x694AA1769357215DE4FAC081bf1f309aDC325306
-        });
-        return anvilConfig;
+        // 1. Deploy the mocks
+        // 2. Return the mock address
     }
 }
